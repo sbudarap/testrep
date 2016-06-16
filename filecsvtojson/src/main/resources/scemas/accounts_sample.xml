@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<accounts>
+	<account>
+		<BillingStreet>111 Boulevard Hausmann</BillingStreet>
+		<BillingCity>Paris</BillingCity>
+		<BillingCountry>France</BillingCountry>
+		<BillingState>0</BillingState>
+		<Name>Dog Park Industries</Name>
+		<BillingPostalCode>75008</BillingPostalCode>
+	</account>
+	<account>
+		<BillingStreet>400 South St</BillingStreet>
+		<BillingCity>San Francisco</BillingCity>
+		<BillingCountry>USA</BillingCountry>
+		<BillingState>CA</BillingState>
+		<Name>Iguana Park Industries</Name>
+		<BillingPostalCode>91156</BillingPostalCode>
+	</account>
+	<account>
+		<BillingStreet>777 North St</BillingStreet>
+		<BillingCity>San Francisco</BillingCity>
+		<BillingCountry>USA</BillingCountry>
+		<BillingState>CA</BillingState>
+		<Name>Cat Park Industries</Name>
+		<BillingPostalCode>91156</BillingPostalCode>
+	</account>
+</accounts>
+	

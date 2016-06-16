@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.example.org"
+            targetNamespace="http://www.example.org"
+            elementFormDefault="qualified">
+		<xsd:element name="accounts">
+            <xsd:complexType>
+                <xsd:sequence>
+					<xsd:element name="account" maxOccurs="unbounded">
+            			<xsd:complexType>
+                			<xsd:sequence>
+								<xsd:element name='BillingStreet' type='xsd:string'/>
+								<xsd:element name='BillingCity' type='xsd:string'/>
+								<xsd:element name='BillingCountry' type='xsd:string'/>
+								<xsd:element name='BillingState' type='xsd:string'/>
+								<xsd:element name='Name' type='xsd:string'/>
+								<xsd:element name='BillingPostalCode' type='xsd:string'/>
+							</xsd:sequence>
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:sequence>
+			</xsd:complexType>
+		</xsd:element>
+</xsd:schema>
